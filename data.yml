@@ -1,0 +1,48 @@
+---
+name: Friedrich Nietzsche
+email: friedrich@nietzsche.de
+phone:
+    primary: +49 01234  67890
+    secondary: +49 12345 678901
+address:
+    line1: Humboldtstraße 36
+    line2: 99425 Weimar Prussia
+
+experience:
+    - years: 1879--1889
+      job: Freier Philisoph
+      employer: Freiberufler
+      city: Sils-Maria
+    - years: 1869--1879
+      job: Professor für klassische Philologie
+      employer: Universität Basel
+      city: Basel
+      tasks:
+          - Teach philology.
+    - years: 1867--1868
+      job: Kanonier
+      employer: Preußischen Artillerie
+      city: Naumburg
+
+education:
+    - year: 1867
+      subject: Philology
+      institute: Leipzig Universität
+      city: Leipzig
+    - year: 1864
+      subject: Abitur
+      institute: Schulpforta
+      city: Naumburg
+
+skills:
+    - Aesthetics, Ethics, Metaphysics, Nihilism
+    - Psychology, Ontology, Poetry, Value theory
+    - Voluntarism, Tragedy, Fact–value distinction
+    - Anti-foundationalism, Philosophy of history
+
+# Settings
+fontsize: 11pt
+margin: 1in
+boxcolor: F2F0EC
+boxheight: 18pt
+...

@@ -1,0 +1,51 @@
+\documentclass[$fontsize$]{cv}
+
+% Packages
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{polyglossia}
+\usepackage{libertine}
+\usepackage{microtype}
+
+% Document settings
+\geometry{margin=$margin$}
+\definecolor{boxcolor}{HTML}{$boxcolor$}
+\newcommand\boxheight{$boxheight$}
+
+\begin{document}
+  {\Large \textbf{$name$}}\\[0.5em]
+  \header{$phone.primary$$if(phone.secondary)$\,\textbullet\,$phone.secondary$$endif$}
+         {$email$}
+         {$address.line1$}
+         {$address.line2$}
+
+  $if(experience)$
+    \colorbox{Previous Experience}
+    $for(experience)$
+      \listing{$experience.job$}{$experience.years$}{$experience.employer$, $experience.city$}{}
+      $if(experience.tasks)$
+        \begin{itemize}
+          $for(experience.tasks)$
+            \item $experience.tasks$
+          $endfor$
+        \end{itemize}
+      $endif$
+    $endfor$
+  $endif$
+
+  $if(education)$
+    \colorbox{Education}
+    $for(education)$
+      \listing{$education.subject$}{$education.years$}{$education.institute$, $education.city$}{}
+    $endfor$
+  $endif$
+
+  $if(skills)$
+    \colorbox{Skills}
+    \begin{itemize}
+      $for(skills)$
+        \item $skills$
+      $endfor$
+    \end{itemize}
+  $endif$
+\end{document}
