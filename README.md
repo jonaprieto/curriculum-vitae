@@ -31,5 +31,7 @@ It makes it much easier to update while keeping a consistent structure.
 
 If you want to add new sections, check `cv.tex` to see how it's done and edit it as you wish.
 
+Then, to compile and see the result, run `make`.
+
 ## License
 This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).

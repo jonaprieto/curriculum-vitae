@@ -2,30 +2,31 @@
 
 % Packages
 \usepackage{geometry}
-\usepackage{parskip}
 \usepackage{polyglossia}
+\usepackage{parskip}
+\usepackage{hyperref}
 \usepackage{libertine}
 \usepackage{microtype}
 
 % Document settings
 \geometry{margin=$margin$}
+\setmainlanguage{$lang$}
 \definecolor{boxcolor}{HTML}{$boxcolor$}
 \newcommand\boxheight{$boxheight$}
 
 \begin{document}
   {\Large \textbf{$name$}}\\[0.5em]
   \header{$phone.primary$$if(phone.secondary)$\,\textbullet\,$phone.secondary$$endif$}
-         {$email$}
+         {\href{mailto:$email$}{$email$}}
          {$address.line1$}
          {$address.line2$}
 
   $if(experience)$
-    \colorbox{Previous Experience}
+    \colorbox{Experience}
     $for(experience)$
       \listing{$experience.job$}{$experience.years$}{$experience.employer$, $experience.city$}{}
       $if(experience.tasks)$
         \begin{itemize}
-          %\setlength\itemsep{0em}
           $for(experience.tasks)$
             \item $experience.tasks$
           $endfor$
