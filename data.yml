@@ -2,11 +2,11 @@
 name: Friedrich Nietzsche
 email: friedrich@nietzsche.de
 phone:
-    primary: +49 01234  67890
-    secondary: +49 12345 678901
+    primary: +49 (0) 3643-545-630
+    secondary: +49 (0) 3643-545-639
 address:
-    line1: Humboldtstraße 36
-    line2: 99425 Weimar Prussia
+    line1: Humboldtstr. 36
+    line2: 99425 Weimar
 
 experience:
     - years: 1879--1889
@@ -18,7 +18,7 @@ experience:
       employer: Universität Basel
       city: Basel
       tasks:
-          - Teach philology.
+          - Teach classic philology.
     - years: 1867--1868
       job: Kanonier
       employer: Preußischen Artillerie
