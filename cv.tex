@@ -15,11 +15,19 @@
 \newcommand\boxheight{$boxheight$}
 
 \begin{document}
-  {\Large \textbf{$name$}}\\[0.5em]
-  \header{$phone.primary$$if(phone.secondary)$\,\textbullet\,$phone.secondary$$endif$}
-         {\href{mailto:$email$}{$email$}}
-         {$address.line1$}
-         {$address.line2$}
+{\Large \textbf{$name$}}\\[0.5em]
+\header{$phone.primary$$if(phone.secondary)$\,\textbullet\,$phone.secondary$$endif$}
+       {\href{mailto:$email$}{$email$}}
+       {$address.line1$}
+       {$address.line2$}
+
+$if(intro)$
+  $intro$\\[0.5em]
+$endif$
+
+
+
+
 
   $if(experience)$
     \colorbox{Experience}
@@ -28,7 +36,11 @@
       $if(experience.tasks)$
         \begin{itemize}
           $for(experience.tasks)$
-            \item $experience.tasks$
+            $if(experience.tasks.years)$
+              \item [$experience.tasks.years$] $experience.tasks.name$
+            $else$
+              \item $experience.tasks$
+            $endif$
           $endfor$
         \end{itemize}
       $endif$
@@ -42,12 +54,29 @@
     $endfor$
   $endif$
 
-  $if(skills)$
-    \colorbox{Skills}
-    \begin{itemize}
-      $for(skills)$
-        \item $skills$
-      $endfor$
-    \end{itemize}
-  $endif$
+$if(skills)$
+  \colorbox{Skills}
+  \begin{itemize}
+    $for(skills)$
+      \item $skills$
+    $endfor$
+  \end{itemize}
+$endif$
+
+$if(tech)$
+  \colorbox{Technical Skills}
+    $for(tech)$
+     \texttt{$tech.lang$} [{$tech.year$}]\\
+     {\textbf{Domain}:$tech.domain$}\\
+      $if(tech.projects)$\\
+      Software:
+        \begin{itemize}
+        $for(tech.projects)$
+          \item [$tech.projects.year$] \href{$tech.projects.url$}{\textit{$tech.projects.name$}: $tech.projects.description$
+        $endfor$
+        \end{itemize}
+      $endif$
+    $endfor$
+$endif$
+
 \end{document}

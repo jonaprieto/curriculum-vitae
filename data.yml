@@ -1,49 +1,77 @@
 ---
-name: Friedrich Nietzsche
-email: friedrich@nietzsche.de
+name: Jonathan S. Prieto
+intro: Mathematicien focused on computer science. He works on topics like design and analysis of algorithms, discrete mathematics and data science techniques. He was born in Colombia, Bogotá capital city.
+
+email: jprieto9@eafit.edu.co
+website:
+  primary: \url{http://jonaprieto.github.io}
+  secondary: \url{http://www.github.com/jonaprieto}
 phone:
-    primary: +49 (0) 3643-545-630
-    secondary: +49 (0) 3643-545-639
+    primary: +57 3014640464
+    secondary: +57 (1) 3226034
 address:
-    line1: Humboldtstr. 36
-    line2: 99425 Weimar
+    line1: Carrera 73 \# 51 - 14, Normandia, Bogotá
+    line2: Calle 10A \# 92 - 72, El Poblado, Medellín
+
+
 
 experience:
-    - years: 1879--1889
-      job: Freier Philisoph
-      employer: Freiberufler
-      city: Sils-Maria
-    - years: 1869--1879
-      job: Professor für klassische Philologie
-      employer: Universität Basel
-      city: Basel
+    - years: 2016-present
+      job: Research Assistant
+      employer: EAFIT University
+      city: Medellín, Colombia
       tasks:
-          - Teach classic philology.
-    - years: 1867--1868
-      job: Kanonier
-      employer: Preußischen Artillerie
-      city: Naumburg
+        - Proof Reconstrucction in \texttt{Agda}
+    - years: 2013-2015
+      job: Young Researcher
+      employer: Observatorio de Restitucción y Regulación de Derechos de la Propiedad Agraria
+      city: Bogotá, Colombia
+      tasks:
+          - Develop a search engine for textual data.
+          - Implement machine learning algorithms.
+          - Implement natural lenguage algorithm.
+    - years: 2011-2014
+      job: Lecturer of Computer Science subjects.
+      employer: Sergio Arboleda University
+      city: Bogotá, Colombia
+      tasks:
+        - name: Algorithms I-II
+          years: 2011-2012 and 2014 
+        - name: Discrete Mathematics
+          year: 2014
+        - name: Intern Programming Contests
+          years: 2014-2015
 
 education:
-    - year: 1867
-      subject: Philology
-      institute: Leipzig Universität
-      city: Leipzig
-    - year: 1864
-      subject: Abitur
-      institute: Schulpforta
-      city: Naumburg
+    - year: 2016-present
+      subject: Master of Applied Mathematics
+      institute: EAFIT University
+      city: Medellín
+    - year: 2007-2013
+      subject: Bachelor on Mathematics
+      institute: Sergio Arboleda University
+      city: Bogotá, Colombia
+    - year: 2002-2006
+      institute: CAFAM High School
 
-skills:
-    - Aesthetics, Ethics, Metaphysics, Nihilism
-    - Psychology, Ontology, Poetry, Value theory
-    - Voluntarism, Tragedy, Fact–value distinction
-    - Anti-foundationalism, Philosophy of history
+tech:
+    - lang: Python
+      year: 2013-2016
+      domain: 30\%
+      projects:
+        - name: PonyWhoosh
+          year: 2015
+          url: https://github.com/compiteing/ponywhoosh
+          description: The integration between Whoosh and PonyORM. This integration gives you a full-text search engine in databases.
+        - name: FlaskPonyWhoosh
+          year: 2015
+          url: https://github.com/compiteing/flask-ponywhoosh
+          description: A search engine integration between Flask web framework, Whoosh and PonyORM
 
 # Settings
 fontsize: 11pt
 lang: English
 margin: 1in
-boxcolor: F2F0EC
+boxcolor: F3F3F3
 boxheight: 18pt
 ...
