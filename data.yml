@@ -44,7 +44,7 @@ experience:
 
 education:
     - years: 2016-present
-      subject: Master of Applied Mathematics
+      subject: Master in Applied Mathematics
       institute: EAFIT University
       city: Medellín
       tesis-title: Proof Reconstruction in \texttt{Agda} (Working on)

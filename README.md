@@ -3,6 +3,7 @@
 Save your time making and updating your CV for the next time. 
 This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org).
 
+
 ## Getting Started
 You can start cloning this repository or forking it on github.
 
@@ -24,6 +25,9 @@ You can put the content of your CV in the `data.yml` file, like this:
 name: Friedrich Nietzsche
 intro: Some introduction to resume here
 email: friedrich@nietzsche.de
+website:
+  primary: jonaprieto.github.io
+  secondary: another.github.com
 
 phone:
     primary: +49 (0) 3643-545-630
@@ -46,6 +50,15 @@ experience:
       city: Basel
       tasks:
           - Teach classic philology.
+# Education
+education:
+    - years: 2016-present
+      subject: Master in Applied Mathematics
+      institute: EAFIT University
+      city: Medellín
+      tesis-title: Proof Reconstruction in \texttt{Agda} (Working on)
+      tesis-advisor: Phd. Andrés Sicard-Ramiréz
+ 
 # Skills
 skills:
   - Speak Louder
@@ -74,7 +87,6 @@ $> make
 After the last execution of `make` command, you'll be available to
 open the file `cv.pdf`. If something was wrong, check in your `data.yml` for
 encondings, accentuation, or bad structure of listings.
-
 
 ## License
 This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
