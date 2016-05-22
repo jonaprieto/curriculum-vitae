@@ -7,7 +7,7 @@ This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-pro
 You can start cloning this repository or forking it on github.
 
 ```Bash
-   $> git clone https://github.com/jonaprieto/curriculum-vitae`
+   $> git clone https://github.com/jonaprieto/curriculum-vitae
 ```
 
 Try on your favorite editor opening the file `data.yml`. Check the structure

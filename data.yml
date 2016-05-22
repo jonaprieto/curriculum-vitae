@@ -1,11 +1,11 @@
 ---
-name: Jonathan S. Prieto
+name: Jonathan S. Prieto C.
 intro: Mathematicien focused on computer science. He works on topics like design and analysis of algorithms, discrete mathematics and data science techniques. He was born in Colombia, Bogotá capital city.
 
 email: jprieto9@eafit.edu.co
 website:
-  primary: \url{http://jonaprieto.github.io}
-  secondary: \url{http://www.github.com/jonaprieto}
+  primary: http://jonaprieto.github.io
+  secondary: http://www.github.com/jonaprieto
 phone:
     primary: +57 3014640464
     secondary: +57 (1) 3226034
@@ -21,15 +21,15 @@ experience:
       employer: EAFIT University
       city: Medellín, Colombia
       tasks:
-        - Proof Reconstrucction in \texttt{Agda}
+        - Proof Reconstrucction in \texttt{Haskell} and \texttt{Agda}.
     - years: 2013-2015
       job: Young Researcher
       employer: Observatorio de Restitucción y Regulación de Derechos de la Propiedad Agraria
       city: Bogotá, Colombia
       tasks:
           - Develop a search engine for textual data.
-          - Implement machine learning algorithms.
-          - Implement natural lenguage algorithm.
+          - Implement some machine learning algorithms.
+          - Implement some natural language algorithms.
     - years: 2011-2014
       job: Lecturer of Computer Science subjects.
       employer: Sergio Arboleda University
@@ -38,21 +38,23 @@ experience:
         - name: Algorithms I-II
           years: 2011-2012 and 2014 
         - name: Discrete Mathematics
-          year: 2014
+          years: 2014
         - name: Intern Programming Contests
           years: 2014-2015
 
 education:
-    - year: 2016-present
+    - years: 2016-present
       subject: Master of Applied Mathematics
       institute: EAFIT University
       city: Medellín
-    - year: 2007-2013
+      tesis-title: Proof Reconstruction in \texttt{Agda} (Working on)
+      tesis-advisor: Phd. Andrés Sicard-Ramiréz
+    - years: 2007-2013
       subject: Bachelor on Mathematics
       institute: Sergio Arboleda University
       city: Bogotá, Colombia
-    - year: 2002-2006
-      institute: CAFAM High School
+      tesis-title: An Introduction to Ellipt Curves
+      tesis-advisor: Phd. Hermes Jackson
 
 tech:
     - lang: Python
@@ -71,7 +73,7 @@ tech:
 # Settings
 fontsize: 11pt
 lang: English
-margin: 1in
+margin: 1.5in
 boxcolor: F3F3F3
 boxheight: 18pt
 ...

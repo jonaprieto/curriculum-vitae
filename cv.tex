@@ -20,6 +20,11 @@
        {\href{mailto:$email$}{$email$}}
        {$address.line1$}
        {$address.line2$}
+\small{
+\href{$website.primary$}{\url{$website.primary$}}
+$if(website.secondary)$\\
+\href{$website.secondary$}{\url{$website.secondary$}}$endif$
+}\\[0.3em]
 
 $if(intro)$
   $intro$\\[0.5em]
@@ -37,7 +42,7 @@ $endif$
         \begin{itemize}
           $for(experience.tasks)$
             $if(experience.tasks.years)$
-              \item [$experience.tasks.years$] $experience.tasks.name$
+              \item $experience.tasks.name$ \hfill [$experience.tasks.years$] 
             $else$
               \item $experience.tasks$
             $endif$
@@ -51,6 +56,9 @@ $endif$
     \colorbox{Education}
     $for(education)$
       \listing{$education.subject$}{$education.years$}{$education.institute$, $education.city$}{}
+      $if(education.tesis-title)$
+        \begin{itemize}\item \emph{$education.tesis-title$} with advisory of $education.tesis-advisor$. \end{itemize}
+      $endif$
     $endfor$
   $endif$
 
@@ -66,13 +74,15 @@ $endif$
 $if(tech)$
   \colorbox{Technical Skills}
     $for(tech)$
-     \texttt{$tech.lang$} [{$tech.year$}]\\
-     {\textbf{Domain}:$tech.domain$}\\
-      $if(tech.projects)$\\
+     \texttt{$tech.lang$} [$tech.year$]\\
+      Domain: $tech.domain$\\
+      $if(tech.projects)$
       Software:
         \begin{itemize}
         $for(tech.projects)$
-          \item [$tech.projects.year$] \href{$tech.projects.url$}{\textit{$tech.projects.name$}: $tech.projects.description$
+          \item 
+        \href{$tech.projects.url$}{\textit{$tech.projects.name$}}: $tech.projects.description$
+        \hfill [$tech.projects.year$] 
         $endfor$
         \end{itemize}
       $endif$
