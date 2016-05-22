@@ -1,7 +1,9 @@
 # My Curriculum Vitae
 
 Save your time making and updating your CV for the next time. 
-This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org).
+This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org). This is like it looks:
+
+![Preview](https://github.com/jonaprieto/curriculum-vitae/blob/master/cv.png?raw=true)
 
 
 ## Getting Started
