@@ -20,7 +20,7 @@
        {\href{mailto:$email$}{$email$}}
        {$address.line1$}
        {$address.line2$}
-\small{
+\texttt{
 \href{$website.primary$}{\url{$website.primary$}}
 $if(website.secondary)$\\
 \href{$website.secondary$}{\url{$website.secondary$}}$endif$
@@ -30,10 +30,6 @@ $if(intro)$
   $intro$\\[0.5em]
 $endif$
 
-
-
-
-
   $if(experience)$
     \colorbox{Experience}
     $for(experience)$
@@ -42,7 +38,7 @@ $endif$
         \begin{itemize}
           $for(experience.tasks)$
             $if(experience.tasks.years)$
-              \item $experience.tasks.name$ \hfill [$experience.tasks.years$] 
+              \item $experience.tasks.name$ \hfill [$experience.tasks.years$]
             $else$
               \item $experience.tasks$
             $endif$
@@ -80,9 +76,9 @@ $if(tech)$
       Software:
         \begin{itemize}
         $for(tech.projects)$
-          \item 
+          \item
         \href{$tech.projects.url$}{\textit{$tech.projects.name$}}: $tech.projects.description$
-        \hfill [$tech.projects.year$] 
+        \hfill [$tech.projects.year$]
         $endfor$
         \end{itemize}
       $endif$

@@ -1,6 +1,6 @@
 ---
-name: Jonathan S. Prieto C.
-intro: Mathematicien focused on computer science. He works on topics like design and analysis of algorithms, discrete mathematics and data science techniques. He was born in Colombia, Bogotá capital city.
+name: Jonathan Prieto-Cubides
+intro: Is a mathematician focused on computer science and programming. He works on the design and analysis of algorithms, discrete mathematics and data science techniques. He was born in Colombia, a pretty country in South America. Nowadays, he is living in Medellín doing his master on applied mathematics. He enjoys writing, sharing code and teaching.
 
 email: jprieto9@eafit.edu.co
 website:
@@ -10,33 +10,31 @@ phone:
     primary: +57 3014640464
     secondary: +57 (1) 3226034
 address:
-    line1: Carrera 73 \# 51 - 14, Normandia, Bogotá
-    line2: Calle 10A \# 92 - 72, El Poblado, Medellín
-
-
+    line1: Calle 10A \# 40 - 70, El Poblado, Medellín
+    line2: Carrera 73 \# 51 - 14, Normandia, Bogotá
 
 experience:
     - years: 2016-present
       job: Research Assistant
-      employer: EAFIT University
+      employer: EAFIT University. Logic and Computation Research Group.
       city: Medellín, Colombia
       tasks:
-        - Proof Reconstrucction in \texttt{Haskell} and \texttt{Agda}.
+        - Working on proof reconstrucction for \texttt{Agda}.
     - years: 2013-2015
-      job: Young Researcher
-      employer: Observatorio de Restitucción y Regulación de Derechos de la Propiedad Agraria
+      job: Researcher IIa
+      employer: Observatorio de Restitución y Regulación de Derechos de la Propiedad Agraria
       city: Bogotá, Colombia
       tasks:
-          - Develop a search engine for textual data.
-          - Implement some machine learning algorithms.
-          - Implement some natural language algorithms.
+          - Develop a search engine for textual data in \texttt{Mathematica}.
+          - Implement machine learning algorithms.
+          - Implement natural language algorithms.
     - years: 2011-2014
-      job: Lecturer of Computer Science subjects.
+      job: Lecturer of computer science subjects.
       employer: Sergio Arboleda University
       city: Bogotá, Colombia
       tasks:
         - name: Algorithms I-II
-          years: 2011-2012 and 2014 
+          years: 2011-2012 and 2014
         - name: Discrete Mathematics
           years: 2014
         - name: Intern Programming Contests
@@ -47,33 +45,33 @@ education:
       subject: Master in Applied Mathematics
       institute: EAFIT University
       city: Medellín
-      tesis-title: Proof Reconstruction in \texttt{Agda} (Working on)
+      tesis-title: Thesis. Proof Reconstruction for \texttt{Agda}
       tesis-advisor: Phd. Andrés Sicard-Ramiréz
     - years: 2007-2013
       subject: Bachelor on Mathematics
       institute: Sergio Arboleda University
       city: Bogotá, Colombia
-      tesis-title: An Introduction to Ellipt Curves
+      tesis-title: An Introduction to Elliptic Curves
       tesis-advisor: Phd. Hermes Jackson
 
-tech:
-    - lang: Python
-      year: 2013-2016
-      domain: 30\%
-      projects:
-        - name: PonyWhoosh
-          year: 2015
-          url: https://github.com/compiteing/ponywhoosh
-          description: The integration between Whoosh and PonyORM. This integration gives you a full-text search engine in databases.
-        - name: FlaskPonyWhoosh
-          year: 2015
-          url: https://github.com/compiteing/flask-ponywhoosh
-          description: A search engine integration between Flask web framework, Whoosh and PonyORM
+# tech:
+#     - lang: Python
+#       year: 2013-2016
+#       domain: 30\%
+#       projects:
+#         - name: PonyWhoosh
+#           year: 2015
+#           url: https://github.com/compiteing/ponywhoosh
+#           description: The integration between Whoosh and PonyORM. This integration gives you a full-text search engine in databases.
+#         - name: FlaskPonyWhoosh
+#           year: 2015
+#           url: https://github.com/compiteing/flask-ponywhoosh
+#           description: A search engine integration between Flask web framework, Whoosh and PonyORM
 
 # Settings
 fontsize: 11pt
 lang: English
 margin: 1.5in
-boxcolor: F3F3F3
+boxcolor: c3c3c3
 boxheight: 18pt
 ...
