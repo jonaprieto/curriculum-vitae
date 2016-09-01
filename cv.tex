@@ -20,33 +20,50 @@
        {\href{mailto:$email$}{$email$}}
        {$address.line1$}
        {$address.line2$}
-\texttt{
 \href{$website.primary$}{\url{$website.primary$}}
 $if(website.secondary)$\\
 \href{$website.secondary$}{\url{$website.secondary$}}$endif$
-}\\[0.3em]
+\\[0.3em]
 
 $if(intro)$
   $intro$\\[0.5em]
 $endif$
 
-  $if(experience)$
-    \colorbox{Experience}
-    $for(experience)$
-      \listing{$experience.job$}{$experience.years$}{$experience.employer$, $experience.city$}{}
-      $if(experience.tasks)$
-        \begin{itemize}
-          $for(experience.tasks)$
-            $if(experience.tasks.years)$
-              \item $experience.tasks.name$ \hfill [$experience.tasks.years$]
-            $else$
-              \item $experience.tasks$
-            $endif$
-          $endfor$
-        \end{itemize}
-      $endif$
-    $endfor$
-  $endif$
+$if(research)$
+  \colorbox{Research Experience}
+  $for(research)$
+    \listing{$research.job$}{$research.years$}{$research.employer$, $research.city$}{}
+    $if(research.tasks)$
+      \begin{itemize}
+        $for(research.tasks)$
+          $if(research.tasks.years)$
+            \item $research.tasks.name$ \hfill [$research.tasks.years$]
+          $else$
+            \item $research.tasks$
+          $endif$
+        $endfor$
+      \end{itemize}
+    $endif$
+  $endfor$
+$endif$
+
+$if(lecturer)$
+  \colorbox{Lecture Experience}
+  $for(lecturer)$
+    \listing{$lecturer.job$}{$lecturer.years$}{$lecturer.employer$, $lecturer.city$}{}
+    $if(lecturer.tasks)$
+      \begin{itemize}
+        $for(lecturer.tasks)$
+          $if(lecturer.tasks.years)$
+            \item $lecturer.tasks.name$ \hfill [$lecturer.tasks.years$]
+          $else$
+            \item $lecturer.tasks$
+          $endif$
+        $endfor$
+      \end{itemize}
+    $endif$
+  $endfor$
+$endif$
 
   $if(education)$
     \colorbox{Education}
@@ -58,6 +75,15 @@ $endif$
     $endfor$
   $endif$
 
+$if(languages)$
+  \colorbox{Languages}
+  \begin{itemize}
+    $for(languages)$
+      \item $languages$
+    $endfor$
+  \end{itemize}
+$endif$
+
 $if(skills)$
   \colorbox{Skills}
   \begin{itemize}
@@ -67,11 +93,21 @@ $if(skills)$
   \end{itemize}
 $endif$
 
+$if(achievements)$
+  \colorbox{Achievements}
+  \begin{itemize}
+    $for(achievements)$
+      \item $achievements$
+    $endfor$
+  \end{itemize}
+$endif$
+
+\vspace*{3mm}
+
 $if(tech)$
   \colorbox{Technical Skills}
     $for(tech)$
-     \texttt{$tech.lang$} [$tech.year$]\\
-      Domain: $tech.domain$\\
+     $tech.lang$ [$tech.year$] Domain: $tech.domain$\\
       $if(tech.projects)$
       Software:
         \begin{itemize}
@@ -83,6 +119,15 @@ $if(tech)$
         \end{itemize}
       $endif$
     $endfor$
+$endif$
+
+$if(references)$
+  \colorbox{References}
+  \begin{itemize}
+    $for(references)$
+      \item $references$
+    $endfor$
+  \end{itemize}
 $endif$
 
 \end{document}

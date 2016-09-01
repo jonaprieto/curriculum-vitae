@@ -7,66 +7,95 @@ website:
   primary: http://jonaprieto.github.io
   secondary: http://www.github.com/jonaprieto
 phone:
-    primary: +57 3014640464
-    secondary: +57 (1) 3226034
+  primary: +57 3014640464
+  secondary: +57 (1) 3226034
 address:
-    line1: Calle 10A \# 40 - 70, El Poblado, Medellín
-    line2: Carrera 73 \# 51 - 14, Normandia, Bogotá
+  line1: Calle 10A \# 40 - 70, El Poblado, Medellín
+  line2: Carrera 73 \# 51 - 14, Normandia, Bogotá
 
-experience:
-    - years: 2016-present
-      job: Research Assistant
-      employer: EAFIT University. Logic and Computation Research Group.
-      city: Medellín, Colombia
-      tasks:
-        - Working on proof reconstrucction for \texttt{Agda}.
-    - years: 2013-2015
-      job: Researcher IIa
-      employer: Observatorio de Restitución y Regulación de Derechos de la Propiedad Agraria
-      city: Bogotá, Colombia
-      tasks:
-          - Develop a search engine for textual data in \texttt{Mathematica}.
-          - Implement machine learning algorithms.
-          - Implement natural language algorithms.
-    - years: 2011-2014
-      job: Lecturer of computer science subjects.
-      employer: Sergio Arboleda University
-      city: Bogotá, Colombia
-      tasks:
-        - name: Algorithms I-II
-          years: 2011-2012 and 2014
-        - name: Discrete Mathematics
-          years: 2014
-        - name: Intern Programming Contests
-          years: 2014-2015
+research:
+
+  - years: 2016-present
+    job: Research Assistant
+    employer: EAFIT University. Logic and Computation Research Group.
+    city: Medellín, Colombia
+    tasks:
+      - Working on proof reconstrucction for \texttt{Agda}.
+
+  - years: 2013-2015
+    job: Researcher IIa
+    employer: Observatorio de Restitución y Regulación de Derechos de la Propiedad Agraria
+    city: Bogotá, Colombia
+    tasks:
+        - Develop a search engine for textual data in \texttt{Mathematica}.
+        - Implement machine learning algorithms.
+        - Implement natural language algorithms.
+
+lecturer:
+  - years: 2011-2014
+    job: Computer science subjects.
+    employer: Sergio Arboleda University
+    city: Bogotá, Colombia
+    tasks:
+      - name: Algorithms I-II
+        years: 2011-2012 and 2014
+      - name: Discrete Mathematics
+        years: 2014
+      - name: Intern Programming Contests
+        years: 2014-2015
 
 education:
-    - years: 2016-present
-      subject: Master in Applied Mathematics
-      institute: EAFIT University
-      city: Medellín
-      tesis-title: Thesis. Proof Reconstruction for \texttt{Agda}
-      tesis-advisor: Phd. Andrés Sicard-Ramiréz
-    - years: 2007-2013
-      subject: Bachelor on Mathematics
-      institute: Sergio Arboleda University
-      city: Bogotá, Colombia
-      tesis-title: An Introduction to Elliptic Curves
-      tesis-advisor: Phd. Hermes Jackson
+  - years: 2016-present
+    subject: Master in Applied Mathematics
+    institute: EAFIT University
+    city: Medellín
+    tesis-title: Thesis. Proof Reconstruction for \texttt{Agda}
+    tesis-advisor: Phd. Andrés Sicard-Ramiréz
+  - years: 2007-2013
+    subject: Bachelor on Mathematics
+    institute: Sergio Arboleda University
+    city: Bogotá, Colombia
+    tesis-title: An Introduction to Elliptic Curves
+    tesis-advisor: Phd. Hermes Jackson
 
-# tech:
-#     - lang: Python
-#       year: 2013-2016
-#       domain: 30\%
-#       projects:
-#         - name: PonyWhoosh
-#           year: 2015
-#           url: https://github.com/compiteing/ponywhoosh
-#           description: The integration between Whoosh and PonyORM. This integration gives you a full-text search engine in databases.
-#         - name: FlaskPonyWhoosh
-#           year: 2015
-#           url: https://github.com/compiteing/flask-ponywhoosh
-#           description: A search engine integration between Flask web framework, Whoosh and PonyORM
+achievements:
+  - Financial support for math undergrade. Sergio Arboleda Universit.
+  - Math program for talent young of high school. Sergio Arboleda University
+  - ACM-ICPC 2013 Regional Programing Contest. 9th Place, WTF Team
+  - ACM-ICPC 2013 National Programing Contest. 11th Place. WTF Team
+  - Honor mention. Colombian Math Contest 2010
+  - Scholarship Symposium ANTS X. San Diego, California. EEUU
+  - Early promotion at high school. 5th grade to 6th grade
+  - Early promotion at high school. 7th grade to 8th grade
+  - Honors Academic Excellence, 10 and 11 degree in the school
+  - National high school qualification exam ICFES. 4th place in the group
+  - McDonald's drawing contest for schools. 1th Place 1997
+
+references:
+  - Phd(c). Diana Paola Lizarralde. Mathematics. EAFIT University. Phone. 3212149687
+  - Reinaldo Nuñez. Director of the Department of Mathematics. Sergio Arboleda University. Phone:3214526118.
+  - Phd(c). Esteban Hernández. Computer Science. Phone:3118485710
+
+tech:
+  - lang: Python
+    year: 2013-2015
+    domain: 25\%
+  - lang: Mathematica
+    year: 2014-2016
+    domain: 30\%
+  - lang: C++
+    year: 2009-2011
+    domain: 20\%
+  - lang: Haskell
+    year: 2016-
+    domain: 10\%
+  - lang: Agda
+    year: 2016-
+    domain: 5\%
+
+languages:
+  - English Level. B1+ reading, writing and listing. B1 speaking.
+  - Native spanish speaker.
 
 # Settings
 fontsize: 11pt
