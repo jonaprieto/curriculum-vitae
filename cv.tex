@@ -21,9 +21,9 @@
        {$address.line1$}
        {$address.line2$}
 \href{$website.primary$}{\url{$website.primary$}}
-$if(website.secondary)$\\
-\href{$website.secondary$}{\url{$website.secondary$}}$endif$
-\\[0.3em]
+% $if(website.secondary)$\\
+% \href{$website.secondary$}{\url{$website.secondary$}}$endif$
+% \\[0.3em]
 
 $if(intro)$
   $intro$\\[0.5em]
@@ -48,7 +48,7 @@ $if(research)$
 $endif$
 
 $if(lecturer)$
-  \colorbox{Lecture Experience}
+  \colorbox{Lecturer Experience}
   $for(lecturer)$
     \listing{$lecturer.job$}{$lecturer.years$}{$lecturer.employer$, $lecturer.city$}{}
     $if(lecturer.tasks)$
@@ -112,7 +112,7 @@ $if(tech)$
       Software:
         \begin{itemize}
         $for(tech.projects)$
-          \item
+          \item[(-)]
         \href{$tech.projects.url$}{\textit{$tech.projects.name$}}: $tech.projects.description$
         \hfill [$tech.projects.year$]
         $endfor$

@@ -1,39 +1,36 @@
 ---
 name: Jonathan Prieto-Cubides
-intro: Is a mathematician focused on computer science and programming. He works on the design and analysis of algorithms, discrete mathematics and data science techniques. He was born in Colombia, a pretty country in South America. Nowadays, he is living in Medellín doing his master on applied mathematics. He enjoys writing, sharing code and teaching.
 
 email: jprieto9@eafit.edu.co
 website:
-  primary: http://jonaprieto.github.io
-  secondary: http://www.github.com/jonaprieto
+  primary: http://www.github.com/jonaprieto
+  # secondary: http://jonaprieto.github.io
 phone:
-  primary: +57 3014640464
-  secondary: +57 (1) 3226034
+  primary: +57 3014640465
+
 address:
-  line1: Calle 10A \# 40 - 70, El Poblado, Medellín
+  line1: Carrera 45 \# 68 s - 36, Sabaneta, Antioquia
   line2: Carrera 73 \# 51 - 14, Normandia, Bogotá
 
 research:
 
   - years: 2016-present
     job: Research Assistant
-    employer: EAFIT University. Logic and Computation Research Group.
+    employer: EAFIT University. Logic and Computation Research Group
     city: Medellín, Colombia
     tasks:
-      - Working on proof reconstrucction for \texttt{Agda}.
+      - Logic, Type Theory, Functional Programming
 
   - years: 2013-2015
-    job: Researcher IIa
+    job: Researcher
     employer: Observatorio de Restitución y Regulación de Derechos de la Propiedad Agraria
     city: Bogotá, Colombia
     tasks:
-        - Develop a search engine for textual data in \texttt{Mathematica}.
-        - Implement machine learning algorithms.
-        - Implement natural language algorithms.
+        - Text Data Mining, Machine Learning, Functional Programming
 
 lecturer:
   - years: 2011-2014
-    job: Computer science subjects.
+    job: Computer science subjects
     employer: Sergio Arboleda University
     city: Bogotá, Colombia
     tasks:
@@ -41,25 +38,25 @@ lecturer:
         years: 2011-2012 and 2014
       - name: Discrete Mathematics
         years: 2014
-      - name: Intern Programming Contests
+      - name: ACM Programming Contests
         years: 2014-2015
 
 education:
   - years: 2016-present
-    subject: Master in Applied Mathematics
+    subject: Msc. Applied Mathematics
     institute: EAFIT University
-    city: Medellín
-    tesis-title: Thesis. Proof Reconstruction for \texttt{Agda}
+    city: Medellín, Colombia.
+    tesis-title: Reconstruction of Proofs in Agda.
     tesis-advisor: Phd. Andrés Sicard-Ramiréz
   - years: 2007-2013
-    subject: Bachelor on Mathematics
+    subject: Bsc. Mathematics
     institute: Sergio Arboleda University
     city: Bogotá, Colombia
     tesis-title: An Introduction to Elliptic Curves
     tesis-advisor: Phd. Hermes Jackson
 
 achievements:
-  - Financial support for math undergrade. Sergio Arboleda Universit.
+  - Financial support for math undergrade. Sergio Arboleda University
   - Math program for talent young of high school. Sergio Arboleda University
   - ACM-ICPC 2013 Regional Programing Contest. 9th Place, WTF Team
   - ACM-ICPC 2013 National Programing Contest. 11th Place. WTF Team
@@ -72,9 +69,10 @@ achievements:
   - McDonald's drawing contest for schools. 1th Place 1997
 
 references:
-  - Phd(c). Diana Paola Lizarralde. Mathematics. EAFIT University. Phone. 3212149687
-  - Reinaldo Nuñez. Director of the Department of Mathematics. Sergio Arboleda University. Phone:3214526118.
-  - Phd(c). Esteban Hernández. Computer Science. Phone:3118485710
+  - Phd(c). Paola Lizarralde-Bejarano. EAFIT University. Phone. 3212149687
+  - Phd. Francisco Gutierrez Sanín. IEPRI UNAL
+  - Phd. Camilo Argoty. Mathematics. Phone. 3142957596
+  - Phd(c). Esteban Hernández. Computer Science. Phone. 3118485710
 
 tech:
   - lang: Python
@@ -82,20 +80,20 @@ tech:
     domain: 25\%
   - lang: Mathematica
     year: 2014-2016
-    domain: 30\%
+    domain: 25\%
   - lang: C++
     year: 2009-2011
-    domain: 20\%
+    domain: 15\%
   - lang: Haskell
     year: 2016-
-    domain: 10\%
+    domain: 25\%
   - lang: Agda
     year: 2016-
-    domain: 5\%
+    domain: 10\%
 
 languages:
-  - English Level. B1+ reading, writing and listing. B1 speaking.
-  - Native spanish speaker.
+  - English B2
+  - Native spanish speaker
 
 # Settings
 fontsize: 11pt
