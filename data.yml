@@ -19,7 +19,7 @@ research:
     employer: EAFIT University. Logic and Computation Research Group
     city: Medellín, Colombia
     tasks:
-      - Logic, Type Theory, Functional Programming
+      - Logic, Type Theory, Agda, Functional Programming
 
   - years: 2013-2015
     job: Researcher
@@ -43,13 +43,14 @@ lecturer:
 
 education:
   - years: 2016-present
-    subject: Msc. Applied Mathematics
+    subject: Master in Applied Mathematics
     institute: EAFIT University
     city: Medellín, Colombia.
-    tesis-title: Reconstruction of Proofs in Agda.
-    tesis-advisor: Phd. Andrés Sicard-Ramiréz
+    tesis-title: Proof Recontruction in First-Order Logic
+    tesis-advisor: Phd. Andrés Sicard-Ramírez
+
   - years: 2007-2013
-    subject: Bsc. Mathematics
+    subject: Bachelor in Mathematics
     institute: Sergio Arboleda University
     city: Bogotá, Colombia
     tesis-title: An Introduction to Elliptic Curves
@@ -69,10 +70,10 @@ achievements:
   - McDonald's drawing contest for schools. 1th Place 1997
 
 references:
-  - Phd(c). Paola Lizarralde-Bejarano. EAFIT University. Phone. 3212149687
-  - Phd. Francisco Gutierrez Sanín. IEPRI UNAL
-  - Phd. Camilo Argoty. Mathematics. Phone. 3142957596
-  - Phd(c). Esteban Hernández. Computer Science. Phone. 3118485710
+  - Phd. Andrés Sicard-Ramírez. asr@eafit.edu.co. EAFIT University
+  - Phd(c). Paola Lizarralde-Bejarano. dlizarra@eafit.edu.co. EAFIT University
+  - Phd. Camilo Argoty. Mathematics. argoty7@gmail.com. Sergio Arboleda University
+  - Phd. Esteban Hernández. Computer Science. Universidad Distrital. Phone. 3118485710
 
 tech:
   - lang: Python
@@ -92,7 +93,7 @@ tech:
     domain: 10\%
 
 languages:
-  - English B2
+  - English B1+
   - Native spanish speaker
 
 # Settings
