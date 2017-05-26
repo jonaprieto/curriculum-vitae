@@ -12,6 +12,11 @@ address:
   line1: CR 45 No. 68 Sur 36\hspace{2mm} Sabaneta, Antioquia
   line2: CR 73 No. 51 14\hspace{8mm}     Normandia, Bogotá
 
+intro: I have education in mathematics but my academic interests are those
+  branches of mathematics that are connected with computer science like discrete
+  mathematics, algorithms, functional programming and foundation of mathematics
+  like type theory.
+  
 research:
 
   - years: 2016-present
@@ -55,7 +60,7 @@ education:
   - years: 2016-present
     subject: Master in Applied Mathematics
     duration: 2 years
-    emphasis: Logic and Functional Programming
+    emphasis: Logic, Type Theory, and Functional Programming
     institute: EAFIT University
     city: Medellín, Colombia
     tesis-title: Proof Recontruction in First-Order Logic
@@ -71,7 +76,8 @@ education:
     tesis-advisor: Phd. Hermes Jackson
 
 achievements:
-  - Financial support to studt mathematics at Sergio Arboleda University
+  - Scholarship to study master program at EAFIT University
+  - Financial support to study mathematics at Sergio Arboleda University
   - Math program for talent young of high school. Sergio Arboleda University
   - ACM-ICPC 2013 Regional Programing Contest. 9th Place, WTF Team
   - ACM-ICPC 2013 National Programing Contest. 11th Place. WTF Team
@@ -84,31 +90,56 @@ achievements:
   - McDonald's drawing contest for schools. 1th Place 1997
 
 references:
-  - Phd. Andrés Sicard-Ramírez. asr@eafit.edu.co. EAFIT University
-  - Phd(c). Paola Lizarralde-Bejarano. dlizarra@eafit.edu.co. EAFIT University
-  - Phd. Camilo Argoty.  argoty7@gmail.com. Sergio Arboleda University
-  - Phd. Esteban Hernández. Computer Science. Universidad Distrital.
+  - Phd. Andrés Sicard-Ramírez. asr@eafit.edu.co. Computer Science. EAFIT University
+  - Phd(c). Paola Lizarralde-Bejarano. dlizarra@eafit.edu.co. Mathematics. EAFIT University
+  - Phd. Camilo Argoty.  argoty7@gmail.com. Mathematics. Sergio Arboleda University
+  - Phd. Esteban Hernández. Computer Science. eshernan@gmail.com Universidad Distrital de Bogotá.
 
-project:
+paper:
+  - Prieto-Cubides J., Argoty Camilo. \emph{Dealing with Missing Data using a Selection Algorithm on Rough Sets}. 2017.
+    To submit on International Journal of Computational Intelligence Systems. (Work in Progress)
+
+
+private-project:
+  - name: Poirot
+    sponsor: Sergio Arboleda University, IEPRI, COLCIENCIAS
+    year: 2014-2016
+    description: Poirot is a text search, a package, and analysis platform
+      programmed in Mathematica®, designed for retrieval, analysis and
+      systematization of large textual data (in the order of tens of thousands
+      of files). Poirot is tailored for the needs of qualitative researchers,
+      journalists, and state officials (in the judiciary, for example), that
+      need to find specific textual bits in big masses of unstructured text.
+    language: Mathematica
+
+open-source-project:
 
   - name: Athena
     url: http://github.com/jonaprieto/athena
-    description: Athena is a Haskell program that translates proofs given by Metis ATP in TSTP format to Agda code.
+    description: Athena is a Haskell program that translates proofs given by Metis Prover in TSTP format to Agda code.
+      This work was present in the \href{http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.AIMXXV}{Agda Implementors' Meeting XXV}
+      at Chalmers University.
     language: Haskell, Agda
 
   - name: Agda-Prop
     url: http://github.com/jonaprieto/agda-prop
-    description: Agda library to work with Classical Propositional Logic using a deep embedding.
+    description: Agda library to work with Classical Propositional Logic using
+      a deep embedding. Natural deductions Proofs for around seventy theorems.
     language: Agda
 
   - name: Agda-Metis
     url: http://github.com/jonaprieto/agda-metis
-    description: This library aims to provide the necessary functions and theorems for Athena to reconstruct proofs found by the automatic theorem prover , Metis.
+    description: This library aims to provide the necessary functions and
+      theorems for Athena to reconstruct proofs found by the automatic
+       theorem prover, Metis.
     language: Agda
 
   - name: OnlineATPs
     url: http://github.com/jonaprieto/online-atps
-    description: OnlineATPs is a command-line client for TPTP World. We can use an online ATP as it would be running locally. Indeed, SystemOnTPTP has available more than forty automatic theorem provers and we take avantage of all.
+    description: OnlineATPs is a command-line client for TPTP World.
+      We can use an online ATP as it would be running locally.
+      Indeed, SystemOnTPTP has available more than forty automatic theorem
+      provers and we take avantage of all.
     language: Haskell
 
   - name: Curriculum-Vitae
@@ -127,13 +158,13 @@ project:
     language: Python
 
 languages:
-  - English B1+
-  - Native spanish speaker
+  - English - B1+
+  - Spanish - Native speaker
 
 # Settings
 fontsize: 11pt
 lang: English
-margin: 3cm
+margin: 2.8cm
 boxcolor: c3c3c3
 boxheight: 18pt
 ...

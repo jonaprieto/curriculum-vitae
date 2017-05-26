@@ -119,7 +119,7 @@ $if(research)$
 $endif$
 
 $if(lecturer)$
-  \colorbox{Lecturer Experience}
+  \colorbox{Teaching Experience}
   $for(lecturer)$
     \listing{$lecturer.job$}{$lecturer.years$}{$lecturer.employer$. $lecturer.city$}{}
     $if(lecturer.tasks)$
@@ -152,17 +152,41 @@ $endif$
   $endif$
 
 
-$if(project)$
-  \colorbox{Open-Source Projects}
-    $for(project)$
+$if(paper)$
+  \colorbox{Publications}
+  \begin{itemize}{\footnotesize
+    $for(paper)$
+      \item $paper$
+    $endfor$
+    }
+  \end{itemize}
+$endif$
+
+$if(open-source-project)$
+  \colorbox{Open-Source Open-Source-Projects}
+    $for(open-source-project)$
   \begin{tabularx}{\textwidth}{Xr}
-    {\color{plum!60!black}\textbf{$project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $project.language$}\\
-    \href{$project.url$}{$project.url$}   &
+    {\color{plum!60!black}\textbf{$open-source-project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $open-source-project.language$}\\
+    \href{$open-source-project.url$}{\footnotesize $open-source-project.url$}   &
   \end{tabularx}
   \begin{tabularx}{\linewidth}{Xr}
-    {\footnotesize $project.description$}
+    {\footnotesize $open-source-project.description$}
   \end{tabularx}
 
+    $endfor$
+$endif$
+
+
+$if(private-project)$
+  \colorbox{Private Private-Projects}
+    $for(private-project)$
+  \begin{tabularx}{\textwidth}{Xr}
+    {\color{plum!60!black}\textbf{$private-project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $private-project.language$}\\
+    {\footnotesize $private-project.sponsor$}   &
+  \end{tabularx}
+  \begin{tabularx}{\linewidth}{Xr}
+    {\footnotesize $private-project.description$}
+  \end{tabularx}
     $endfor$
 $endif$
 
