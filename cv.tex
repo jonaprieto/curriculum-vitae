@@ -4,9 +4,77 @@
 \usepackage{geometry}
 \usepackage{polyglossia}
 \usepackage{parskip}
+\usepackage{tikz}
+% --------------------------------------------------------------------------
+% Color definitions.
+% --------------------------------------------------------------------------
+\usepackage{xcolor}
+\definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
+\definecolor{amethyst}{rgb}{0.6, 0.4, 0.8}
+\definecolor{antiquefuchsia}{rgb}{0.57, 0.36, 0.51}
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+\definecolor{ballblue}{rgb}{0.13, 0.67, 0.8}
+\definecolor{blue(munsell)}{rgb}{0.0, 0.5, 0.69}
+\definecolor{blue(pigment)}{rgb}{0.2, 0.2, 0.6}
+\definecolor{blu}{RGB}{1,0,102}
+\definecolor{bondiblue}{rgb}{0.0, 0.58, 0.71}
+\definecolor{brightmaroon}{rgb}{0.76, 0.13, 0.28}
+\definecolor{cadet}{rgb}{0.33, 0.41, 0.47}
+
+% --------------------------------------------------------------------------
+% My palette.
+% --------------------------------------------------------------------------
+\definecolor{energy}{RGB}{49,247,250}
+\definecolor{delicate}{RGB}{67,179,223}
+\definecolor{faded}{RGB}{76,117,195}
+\definecolor{plum}{RGB}{87,78,164}
+\definecolor{petunias}{RGB}{109,80,139}
+\definecolor{letour}{RGB}{101,41,105}
+% --------------------------------------------------------------------------
 \usepackage{hyperref}
-% \usepackage{libertine}
-% \usepackage{microtype}
+\hypersetup{
+  colorlinks = true,
+  urlcolor=plum!65!black,
+  linkbordercolor = {white},
+}
+\usepackage{fontspec}
+\usepackage{mathtools}
+\usepackage{unicode-math}
+
+\newfontfamily\djvu[ExternalLocation=fonts/
+  , BoldFont=DejaVuSansMono-Bold.ttf
+  , BoldItalicFont=DejaVuSansMono-BoldOblique.ttf
+  , ItalicFont=DejaVuSansMono-Oblique.ttf
+  ]{DejaVuSansMono.ttf}
+
+%% \setmonofont[ExternalLocation=fonts/
+%% , BoldFont=DejaVuSansMono-Bold.ttf
+%% , BoldItalicFont=DejaVuSansMono-BoldOblique.ttf
+%% , ItalicFont=DejaVuSansMono-Oblique.ttf
+%% ]{DejaVuSansMono.ttf}
+
+\setmathfont[ExternalLocation=fonts/
+  ]{DejaVuMathTeXGyre.ttf}
+\newfontfamily\mathfont{fonts/DejaVuMathTeXGyre.ttf}
+
+\setmainfont[ExternalLocation=fonts/
+  , BoldFont=SourceSansPro-Semibold.otf
+  , BoldItalicFont=SourceSansPro-SemiboldIt.otf
+  , ItalicFont=SourceSansPro-It.otf
+  ]{SourceSansPro-Regular.otf}
+
+\setmonofont[ExternalLocation=fonts/
+  , BoldFont=SourceCodePro-Semibold.ttf
+  , BoldItalicFont=SourceCodePro-SemiboldIt.ttf
+  , ItalicFont=SourceCodePro-It.ttf
+  ]{SourceCodePro-Regular.ttf}
+
+\newfontfamily\sourcecode[ExternalLocation=fonts/
+  , BoldFont=SourceCodePro-Semibold.ttf
+  , BoldItalicFont=SourceCodePro-SemiboldIt.ttf
+  , ItalicFont=SourceCodePro-It.ttf
+  ]{SourceCodePro-Regular.ttf}
 
 % Document settings
 \geometry{margin=$margin$}
@@ -15,12 +83,15 @@
 \newcommand\boxheight{$boxheight$}
 
 \begin{document}
-{\Large \textbf{$name$}}\\[0.5em]
+{\color{plum!40!black}\Large \textbf{$name$}}\\
+{\color{plum!40!black}\rule{\linewidth}{0.5pt}}
+
 \header{$phone.primary$$if(phone.secondary)$\,\textbullet\,$phone.secondary$$endif$}
-       {\href{mailto:$email$}{$email$}}
-       {$address.line1$}
-       {$address.line2$}
-\href{$website.primary$}{\url{$website.primary$}}
+       {\href{mailto:$email$}{\footnotesize \texttt{$email$}}}
+       {\footnotesize $address.line1$}
+       {\footnotesize $address.line2$}
+\href{$website.primary$}{\footnotesize\texttt{$website.primary$}}
+
 % $if(website.secondary)$\\
 % \href{$website.secondary$}{\url{$website.secondary$}}$endif$
 % \\[0.3em]
@@ -32,14 +103,14 @@ $endif$
 $if(research)$
   \colorbox{Research Experience}
   $for(research)$
-    \listing{$research.job$}{$research.years$}{$research.employer$, $research.city$}{}
+    \listing{$research.job$}{$research.years$}{$research.employer$. $research.city$}{}
     $if(research.tasks)$
       \begin{itemize}
         $for(research.tasks)$
           $if(research.tasks.years)$
-            \item $research.tasks.name$ \hfill [$research.tasks.years$]
+            \item $research.tasks.name$ \hfill {\footnotesize $research.tasks.years$}
           $else$
-            \item $research.tasks$
+            \item {\footnotesize $research.tasks$}
           $endif$
         $endfor$
       \end{itemize}
@@ -50,14 +121,14 @@ $endif$
 $if(lecturer)$
   \colorbox{Lecturer Experience}
   $for(lecturer)$
-    \listing{$lecturer.job$}{$lecturer.years$}{$lecturer.employer$, $lecturer.city$}{}
+    \listing{$lecturer.job$}{$lecturer.years$}{$lecturer.employer$. $lecturer.city$}{}
     $if(lecturer.tasks)$
       \begin{itemize}
         $for(lecturer.tasks)$
           $if(lecturer.tasks.years)$
-            \item $lecturer.tasks.name$ \hfill [$lecturer.tasks.years$]
+            \item {\footnotesize $lecturer.tasks.name$} \hfill {\footnotesize $lecturer.tasks.years$}
           $else$
-            \item $lecturer.tasks$
+            \item {\footnotesize $lecturer.tasks$}
           $endif$
         $endfor$
       \end{itemize}
@@ -68,19 +139,41 @@ $endif$
   $if(education)$
     \colorbox{Education}
     $for(education)$
-      \listing{$education.subject$}{$education.years$}{$education.institute$, $education.city$}{}
+      \education{$education.subject$}{$education.years$}{$education.institute$. $education.city$}{($education.duration$)}{\emph{Emphasis in $education.emphasis$}}
       $if(education.tesis-title)$
-        \begin{itemize}\item \emph{$education.tesis-title$} with advisory of $education.tesis-advisor$. \end{itemize}
+      {\footnotesize
+      \begin{itemize}
+        \item[] Thesis Title. $education.tesis-title$
+        \item[] Advisory.     $education.tesis-advisor$
+      \end{itemize}
+      }
       $endif$
     $endfor$
   $endif$
 
+
+$if(project)$
+  \colorbox{Open-Source Projects}
+    $for(project)$
+  \begin{tabularx}{\textwidth}{Xr}
+    {\color{plum!60!black}\textbf{$project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $project.language$}\\
+    \href{$project.url$}{$project.url$}   &
+  \end{tabularx}
+  \begin{tabularx}{\linewidth}{Xr}
+    {\footnotesize $project.description$}
+  \end{tabularx}
+
+    $endfor$
+$endif$
+
+
 $if(languages)$
   \colorbox{Languages}
-  \begin{itemize}
+  \begin{itemize}{\footnotesize
     $for(languages)$
       \item $languages$
-    $endfor$
+        $endfor$
+        }
   \end{itemize}
 $endif$
 

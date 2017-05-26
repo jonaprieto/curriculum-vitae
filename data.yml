@@ -4,60 +4,74 @@ name: Jonathan Prieto-Cubides
 email: jprieto9@eafit.edu.co
 website:
   primary: http://www.github.com/jonaprieto
-  # secondary: http://jonaprieto.github.io
+
 phone:
-  primary: +57 3014640465
+  primary: +57 301-4640465
 
 address:
-  line1: Carrera 45 \# 68 s - 36, Sabaneta, Antioquia
-  line2: Carrera 73 \# 51 - 14, Normandia, Bogotá
+  line1: CR 45 No. 68 Sur 36\hspace{2mm} Sabaneta, Antioquia
+  line2: CR 73 No. 51 14\hspace{8mm}     Normandia, Bogotá
 
 research:
 
   - years: 2016-present
-    job: Research Assistant
+    job: Young Research Assistant
     employer: EAFIT University. Logic and Computation Research Group
     city: Medellín, Colombia
     tasks:
       - Logic, Type Theory, Agda, Functional Programming
 
   - years: 2013-2015
-    job: Researcher
+    job: Young Researcher
     employer: Observatorio de Restitución y Regulación de Derechos de la Propiedad Agraria
     city: Bogotá, Colombia
     tasks:
-        - Text Data Mining, Machine Learning, Functional Programming
+        - Text Data Mining, Machine Learning, Algorithms, Functional Programming
 
 lecturer:
   - years: 2011-2014
-    job: Computer science subjects
+    job: Mathematics Program
     employer: Sergio Arboleda University
     city: Bogotá, Colombia
     tasks:
       - name: Algorithms I-II
-        years: 2011-2012 and 2014
+        years: 2011-2012, 2014
       - name: Discrete Mathematics
         years: 2014
       - name: ACM Programming Contests
         years: 2014-2015
 
+  - years: 2016-II
+    job: Engineering Programs
+    employer: Instituto Tecnológico Metropolitano
+    city: Medellín, Colombia
+    tasks:
+        - name: Linear Algebra
+          years: Sept-Nov.
+        - name: Linear Programming and Algebra
+          years: Sept-Nov.
+
 education:
   - years: 2016-present
     subject: Master in Applied Mathematics
+    duration: 2 years
+    emphasis: Logic and Functional Programming
     institute: EAFIT University
-    city: Medellín, Colombia.
+    city: Medellín, Colombia
     tesis-title: Proof Recontruction in First-Order Logic
     tesis-advisor: Phd. Andrés Sicard-Ramírez
-
+    
   - years: 2007-2013
     subject: Bachelor in Mathematics
+    duration: 5 years
+    emphasis: Computer Science
     institute: Sergio Arboleda University
     city: Bogotá, Colombia
     tesis-title: An Introduction to Elliptic Curves
     tesis-advisor: Phd. Hermes Jackson
 
 achievements:
-  - Financial support for math undergrade. Sergio Arboleda University
+  - Financial support to studt mathematics at Sergio Arboleda University
   - Math program for talent young of high school. Sergio Arboleda University
   - ACM-ICPC 2013 Regional Programing Contest. 9th Place, WTF Team
   - ACM-ICPC 2013 National Programing Contest. 11th Place. WTF Team
@@ -66,31 +80,51 @@ achievements:
   - Early promotion at high school. 5th grade to 6th grade
   - Early promotion at high school. 7th grade to 8th grade
   - Honors Academic Excellence, 10 and 11 degree in the school
-  - National high school qualification exam ICFES. 4th place in the group
+  - National high school qualification exam ICFES. 4th place/group
   - McDonald's drawing contest for schools. 1th Place 1997
 
 references:
   - Phd. Andrés Sicard-Ramírez. asr@eafit.edu.co. EAFIT University
   - Phd(c). Paola Lizarralde-Bejarano. dlizarra@eafit.edu.co. EAFIT University
-  - Phd. Camilo Argoty. Mathematics. argoty7@gmail.com. Sergio Arboleda University
-  - Phd. Esteban Hernández. Computer Science. Universidad Distrital. Phone. 3118485710
+  - Phd. Camilo Argoty.  argoty7@gmail.com. Sergio Arboleda University
+  - Phd. Esteban Hernández. Computer Science. Universidad Distrital.
 
-tech:
-  - lang: Python
-    year: 2013-2015
-    domain: 25\%
-  - lang: Mathematica
-    year: 2014-2016
-    domain: 25\%
-  - lang: C++
-    year: 2009-2011
-    domain: 15\%
-  - lang: Haskell
-    year: 2016-
-    domain: 25\%
-  - lang: Agda
-    year: 2016-
-    domain: 10\%
+project:
+
+  - name: Athena
+    url: http://github.com/jonaprieto/athena
+    description: Athena is a Haskell program that translates proofs given by Metis ATP in TSTP format to Agda code.
+    language: Haskell, Agda
+
+  - name: Agda-Prop
+    url: http://github.com/jonaprieto/agda-prop
+    description: Agda library to work with Classical Propositional Logic using a deep embedding.
+    language: Agda
+
+  - name: Agda-Metis
+    url: http://github.com/jonaprieto/agda-metis
+    description: This library aims to provide the necessary functions and theorems for Athena to reconstruct proofs found by the automatic theorem prover , Metis.
+    language: Agda
+
+  - name: OnlineATPs
+    url: http://github.com/jonaprieto/online-atps
+    description: OnlineATPs is a command-line client for TPTP World. We can use an online ATP as it would be running locally. Indeed, SystemOnTPTP has available more than forty automatic theorem provers and we take avantage of all.
+    language: Haskell
+
+  - name: Curriculum-Vitae
+    url: http://github.com/jonaprieto/curriculum-vitae
+    description: This document was generated using this project. It makes easier maintain your Resume using LaTeX and Pandoc.
+    language: Latex
+
+  - name: PonyWhoosh
+    url: http://github.com/jonaprieto/ponywhoosh
+    description: Integration between the Whoosh search engine and PonyORM, this library makes your database full-text searchable
+    language: Python
+
+  - name: Flask-PonyWhoosh
+    url: http://github.com/jonaprieto/flask-ponywhoosh
+    description: A web search engine for flask using PonyORM and Whoosh. 
+    language: Python
 
 languages:
   - English B1+
@@ -99,7 +133,9 @@ languages:
 # Settings
 fontsize: 11pt
 lang: English
-margin: 1.5in
+margin: 3cm
 boxcolor: c3c3c3
 boxheight: 18pt
 ...
+
+#  LocalWords:  Observatorio
