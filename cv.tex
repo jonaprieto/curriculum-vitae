@@ -83,6 +83,7 @@
 \newcommand\boxheight{$boxheight$}
 
 \begin{document}
+\vfill
 {\color{plum!40!black}\Large \textbf{$name$}}\\
 {\color{plum!40!black}\rule{\linewidth}{0.5pt}}
 
@@ -135,6 +136,7 @@ $if(lecturer)$
     $endif$
   $endfor$
 $endif$
+\newpage
 
   $if(education)$
     \colorbox{Education}
@@ -178,7 +180,7 @@ $endif$
 
 
 $if(private-project)$
-  \colorbox{Private Private-Projects}
+  \colorbox{Private Projects}
     $for(private-project)$
   \begin{tabularx}{\textwidth}{Xr}
     {\color{plum!60!black}\textbf{$private-project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $private-project.language$}\\

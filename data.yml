@@ -9,14 +9,24 @@ phone:
   primary: +57 301-4640465
 
 address:
-  line1: CR 45 No. 68 Sur 36\hspace{2mm} Sabaneta, Antioquia
-  line2: CR 73 No. 51 14\hspace{8mm}     Normandia, Bogotá
+  line1: CR 45 No. 68 Sur 36\hspace{3mm} Sabaneta, Antioquia
+  line2: CR 73 No. 51 14\hspace{8mm}     Bogotá, Cundinamarca
 
-intro: I have education in mathematics but my academic interests are those
-  branches of mathematics that are connected with computer science like discrete
-  mathematics, algorithms, functional programming and foundation of mathematics
-  like type theory.
-  
+intro:  I am a math student finishing the last year of the Master program in
+  Applied Mathematics at EAFIT University. I am writing my thesis under advisory
+  of Prof. Andrés Sicard-Ramírez. In this thesis, we are working with the Automatic
+  Theorem Prover Metis and also with Agda, a proof-assistant. Our long-term goal is
+  to develop a SledgeHammer like-tool for Agda.\par
+
+  My research interests are those branches of mathematics that are connected with
+  computer science like discrete mathematics, algorithms, functional programming
+  and foundation of mathematics. Recently, I have been reading foundation of
+  intuitionistic logic, type theory, and category theory.\par
+
+  I had some experience doing research and working with people of different backgrounds
+  or from distinct disciplines. I always enjoy sharing my work with the team, and build
+   amazing things!
+
 research:
 
   - years: 2016-present
@@ -39,11 +49,16 @@ lecturer:
     employer: Sergio Arboleda University
     city: Bogotá, Colombia
     tasks:
-      - name: Algorithms I-II
+      - name: Algorithms I
         years: 2011-2012, 2014
+
+      - name: Algorithms II
+        years: 2011-2012, 2014
+
       - name: Discrete Mathematics
         years: 2014
-      - name: ACM Programming Contests
+
+      - name: Seminar of Competitive Programming
         years: 2014-2015
 
   - years: 2016-II
@@ -52,9 +67,9 @@ lecturer:
     city: Medellín, Colombia
     tasks:
         - name: Linear Algebra
-          years: Sept-Nov.
+          years: \
         - name: Linear Programming and Algebra
-          years: Sept-Nov.
+          years: \
 
 education:
   - years: 2016-present
@@ -65,7 +80,7 @@ education:
     city: Medellín, Colombia
     tesis-title: Proof Recontruction in First-Order Logic
     tesis-advisor: Phd. Andrés Sicard-Ramírez
-    
+
   - years: 2007-2013
     subject: Bachelor in Mathematics
     duration: 5 years
@@ -154,7 +169,7 @@ open-source-project:
 
   - name: Flask-PonyWhoosh
     url: http://github.com/jonaprieto/flask-ponywhoosh
-    description: A web search engine for flask using PonyORM and Whoosh. 
+    description: A web search engine for flask using PonyORM and Whoosh.
     language: Python
 
 languages:
@@ -164,7 +179,7 @@ languages:
 # Settings
 fontsize: 11pt
 lang: English
-margin: 2.8cm
+margin: 2.5cm
 boxcolor: c3c3c3
 boxheight: 18pt
 ...
