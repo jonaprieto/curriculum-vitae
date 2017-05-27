@@ -241,12 +241,13 @@ $if(tech)$
 $endif$
 
 $if(references)$
-  \colorbox{References}
+  \colorbox{References}{\footnotesize
   \begin{itemize}
     $for(references)$
       \item $references$
     $endfor$
   \end{itemize}
+  }
 $endif$
 
 \end{document}
