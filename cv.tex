@@ -213,12 +213,13 @@ $if(skills)$
 $endif$
 
 $if(achievements)$
-  \colorbox{Achievements}
+  \colorbox{Achievements}{\footnotesize
   \begin{itemize}
     $for(achievements)$
       \item $achievements$
     $endfor$
   \end{itemize}
+  }
 $endif$
 
 \vspace*{3mm}
