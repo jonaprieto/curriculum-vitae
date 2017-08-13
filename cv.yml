@@ -1,5 +1,9 @@
 ---
 name: Jonathan Prieto-Cubides
+date-of-birth: 1991-04-18
+gender: Male
+citizenship: Colombia
+current-profession: Research Assistant
 
 email: jprieto9@eafit.edu.co
 website:
@@ -14,18 +18,18 @@ address:
 
 intro:  I am a math student finishing the last year of the Master program in
   Applied Mathematics at EAFIT University. I am writing my thesis under advisory
-  of Prof. Andrés Sicard-Ramírez. In this thesis, we are working with the Automatic
-  Theorem Prover Metis and also with Agda, a proof-assistant. Our long-term goal is
+  of Prof. Andrés Sicard-Ramírez in the integreation between the automatic theorem
+  prover Metis and the proof-assistant Agda. Our long-term goal is
   to develop a SledgeHammer like-tool for Agda.\par
 
-  My research interests are those branches of mathematics that are connected with
-  computer science like discrete mathematics, algorithms, functional programming
-  and foundation of mathematics. Recently, I have been reading foundation of
-  intuitionistic logic, type theory, and category theory.\par
+  I mainly interested in mathematics for computer science, topics in discrete
+  mathematics, algorithms, functional programming and foundation of mathematics.
+  Recently, I found myself reading about intuitionistic logic, type theory,
+  and category theory.\par
 
   I had some experience doing research and working with people of different backgrounds
-  or from distinct disciplines. I always enjoy sharing my work with the team, and build
-   amazing things!
+  and from distinct disciplines. I always enjoy sharing my work with the team and build
+  amazing things!
 
 research:
 
@@ -75,29 +79,30 @@ education:
   - years: 2016-present
     subject: Master in Applied Mathematics
     duration: 2 years
-    emphasis: Logic, Type Theory, and Functional Programming
+    emphasis: Logic, Type Theory, and Functional Programming.
     institute: EAFIT University
-    city: Medellín, Colombia
-    tesis-title: Proof Recontruction in First-Order Logic
-    tesis-advisor: Phd. Andrés Sicard-Ramírez
+    city: Medellín, Colombia.
+    tesis-title: Proof Recontruction
+    tesis-advisor: PhD. Andrés Sicard-Ramírez
 
   - years: 2007-2013
     subject: Bachelor in Mathematics
     duration: 5 years
     emphasis: Computer Science
     institute: Sergio Arboleda University
-    city: Bogotá, Colombia
+    city: Bogotá, Colombia.
     tesis-title: An Introduction to Elliptic Curves
-    tesis-advisor: Phd. Hermes Jackson
+    tesis-advisor: PhD. Hermes Jackson
 
 achievements:
-  - Scholarship to study master program at EAFIT University
+  - Scholarship. Agda Implementors’ Meeting XXV at Chalmers University. Gotenburg, Sweden.
+  - Scholarship to study the master program in applied mathematics at EAFIT University
   - Financial support to study mathematics at Sergio Arboleda University
-  - Math program for talent young of high school. Sergio Arboleda University
+  - Member of the the program for talent young of high school. Sergio Arboleda University
   - ACM-ICPC 2013 Regional Programing Contest. 9th Place, WTF Team
   - ACM-ICPC 2013 National Programing Contest. 11th Place. WTF Team
   - Honor mention. Colombian Math Contest 2010
-  - Scholarship Symposium ANTS X. San Diego, California. EEUU
+  - Scholarship. Symposium ANTS X. San Diego, California. EEUU
   - Early promotion at high school. 5th grade to 6th grade
   - Early promotion at high school. 7th grade to 8th grade
   - Honors Academic Excellence, 10 and 11 degree in the school
@@ -112,7 +117,7 @@ references:
 
 paper:
   - Prieto-Cubides J., Argoty Camilo. \emph{Dealing with Missing Data using a Selection Algorithm on Rough Sets}. 2017.
-    To submit on International Journal of Computational Intelligence Systems. (Work in Progress)
+    International Journal of Computational Intelligence Systems. (Submitted)
 
 
 private-project:
@@ -173,7 +178,7 @@ open-source-project:
     language: Python
 
 languages:
-  - English - B1+
+  - English - B2
   - Spanish - Native speaker
 
 # Settings

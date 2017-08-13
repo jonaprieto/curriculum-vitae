@@ -86,13 +86,18 @@
 \vfill
 {\color{plum!40!black}\Large \textbf{$name$}}\\
 {\color{plum!40!black}\rule{\linewidth}{0.5pt}}
-
 \header{$phone.primary$$if(phone.secondary)$\,\textbullet\,$phone.secondary$$endif$}
        {\href{mailto:$email$}{\footnotesize \texttt{$email$}}}
        {\footnotesize $address.line1$}
        {\footnotesize $address.line2$}
-\href{$website.primary$}{\footnotesize\texttt{$website.primary$}}
-
+\href{$website.primary$}{\footnotesize\texttt{$website.primary$}}\\
+% {\color{plum!40!black}\rule{\linewidth}{0.5pt}}
+% {\color{plum!40!black} \textbf{Personal Details}}\\
+{\footnotesize \textbf{Date of Birth:} $date-of-birth$}\\
+{\footnotesize \textbf{Gender:} $gender$}\\
+{\footnotesize \textbf{Citizenship:} $citizenship$}\\
+{\footnotesize \textbf{Current Profession:} $current-profession$}\\
+{\color{plum!40!black}\rule{\linewidth}{0.5pt}}
 % $if(website.secondary)$\\
 % \href{$website.secondary$}{\url{$website.secondary$}}$endif$
 % \\[0.3em]
@@ -136,7 +141,7 @@ $if(lecturer)$
     $endif$
   $endfor$
 $endif$
-\newpage
+% \newpage
 
   $if(education)$
     \colorbox{Education}
@@ -165,7 +170,7 @@ $if(paper)$
 $endif$
 
 $if(open-source-project)$
-  \colorbox{Open-Source Open-Source-Projects}
+  \colorbox{Open-Source Projects}
     $for(open-source-project)$
   \begin{tabularx}{\textwidth}{Xr}
     {\color{plum!60!black}\textbf{$open-source-project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $open-source-project.language$}\\
@@ -242,6 +247,7 @@ $if(tech)$
 $endif$
 
 $if(references)$
+\newpage
   \colorbox{References}{\footnotesize
   \begin{itemize}
     $for(references)$
