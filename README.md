@@ -1,7 +1,7 @@
 # My Curriculum Vitae
 
 Save your time making and updating your CV for the next time. 
-This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org). This is like it looks:
+This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org). This is how it looks:
 
 ![Preview](https://github.com/jonaprieto/curriculum-vitae/blob/master/cv.png?raw=true)
 
@@ -10,15 +10,17 @@ This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-pro
 You can start cloning this repository or forking it on github.
 
 ```Bash
-   $> git clone https://github.com/jonaprieto/curriculum-vitae
+   $ git clone https://github.com/jonaprieto/curriculum-vitae
 ```
 
-Try on your favorite editor opening the file `data.yml`. Check the structure
-of file and how we present our information for the resume. 
+Be aware, you must have installed `pandoc` and of course some distribution of `Latex`.
+
+Now, try it on your favorite editor opening the file `data.yml`. Check the structure
+of this file and how we should put our information. 
 If you didn't find out something like a section for your cv, open an
 issue on this repository, and I will add it as soon as possible. Enjoy it!
 
-## A Big Example
+## A Small Example
 
 You can put the content of your CV in the `data.yml` file, like this:
 
@@ -81,10 +83,10 @@ tech:
 ## Creating the PDF File
 
 It makes it much easier to update while keeping a consistent structure.
-Compile your cv with:
+Compile your CV running the following command:
 
 ```Bash
-$> make
+$ make
 ```
 After the last execution of `make` command, you'll be available to
 open the file `cv.pdf`. If something was wrong, check in your `data.yml` for
