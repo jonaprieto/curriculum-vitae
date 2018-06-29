@@ -15,9 +15,8 @@ assets/%.png : docs/%.pdf
 	- @gs -sDEVICE=png16m \
 		 -r1200 \
 		 -dPDFFitPage=true \
-		 -dDEVICEWIDTHPOINTS=250 \
-		 -dDEVICEHEIGHTPOINTS=150 \
-		 -dDownScaleFactor=4 \
+		 -dDEVICEWIDTHPOINTS=450 \
+		 -dDEVICEHEIGHTPOINTS=350 \
 		 -sOutputFile=$@ \
 		 -dLastPage=1 \
 		 -dBATCH -dNOPAUSE \

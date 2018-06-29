@@ -16,24 +16,20 @@ address:
   line1: CR 45 No. 68 Sur 36\hspace{3mm} Sabaneta, Antioquia
   line2: CR 73 No. 51 14\hspace{8mm}     Bogotá, Cundinamarca
 
-intro:  I am a math student finishing the last year of the Master program in
-  Applied Mathematics at EAFIT University. I am writing my thesis under advisory
-  of Prof. Andrés Sicard-Ramírez in the integreation between the automatic theorem
-  prover Metis and the proof-assistant Agda. Our long-term goal is
-  to develop a SledgeHammer like-tool for Agda.\par
-
-  I mainly interested in mathematics for computer science, topics in discrete
-  mathematics, algorithms, functional programming and foundation of mathematics.
-  Recently, I found myself reading about intuitionistic logic, type theory,
-  and category theory.\par
-
-  I had some experience doing research and working with people of different backgrounds
-  and from distinct disciplines. I always enjoy sharing my work with the team and build
-  amazing things!
+intro:  Ph.D Research Fellow in the Department of Informatics at University of
+  Bergen in Norway. Currently studying mathematics for computer science, i.e.,
+  type theory, computational logic, algorithms, category theory.
 
 research:
 
-  - years: 2016-present
+  - years: 2018-present
+    job: Research Fellow
+    employer: University of Bergen. ICT Research Group. PUT.
+    city: Bergen, Norway
+    tasks:
+      - Type Theory, Functional Programming
+
+  - years: 2016-2017
     job: Young Research Assistant
     employer: EAFIT University. Logic and Computation Research Group
     city: Medellín, Colombia
@@ -49,8 +45,8 @@ research:
 
 lecturer:
   - years: 2011-2014
-    job: Mathematics Program
-    employer: Sergio Arboleda University
+    job: Young Lecturer
+    employer: Universidad Sergio Arboleda
     city: Bogotá, Colombia
     tasks:
       - name: Algorithms I
@@ -66,7 +62,7 @@ lecturer:
         years: 2014-2015
 
   - years: 2016-II
-    job: Engineering Programs
+    job: Engineering
     employer: Instituto Tecnológico Metropolitano
     city: Medellín, Colombia
     tasks:
