@@ -3,7 +3,5 @@
 *.log
 
 # Output
-*.pdf
-
 cv.fdb_latexmk
 cv.fls

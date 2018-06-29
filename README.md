@@ -1,28 +1,38 @@
 # My Curriculum Vitae
 
-Save your time making and updating your CV for the next time. 
-This is a simple boilerplate for my résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org). This is how it looks:
+My résumé using [LaTeX](https://www.latex-project.org) and [Pandoc](http://pandoc.org):
 
-![Preview](https://github.com/jonaprieto/curriculum-vitae/blob/master/cv.png?raw=true)
-
+  ![](assets/cv.png)
 
 ## Getting Started
-You can start cloning this repository or forking it on github.
+
+### Prerequisites
+
+* Pandoc
+* Latex
+
+
+### Compiling
+
+You fork or clone this repository:
 
 ```Bash
    $ git clone https://github.com/jonaprieto/curriculum-vitae
 ```
 
-Be aware, you must have installed `pandoc` and of course some distribution of `Latex`.
+Generate the document in the folder `docs` running this command:
 
-Now, try it on your favorite editor opening the file `data.yml`. Check the structure
-of this file and how we should put our information. 
-If you didn't find out something like a section for your cv, open an
-issue on this repository, and I will add it as soon as possible. Enjoy it!
+```
+$ make
+```
 
-## A Small Example
+The idea here is keeping all your data in the `data.yml` file, don't bother
+about latex. Open an issue or send a PR if you find somehow to improve this
+repo.
 
-You can put the content of your CV in the `data.yml` file, like this:
+### Small Example
+
+Put the content of your CV in the `data.yml` file, like in the following:
 
 ```YAML
 ---
@@ -62,7 +72,7 @@ education:
       city: Medellín
       tesis-title: Proof Reconstruction in \texttt{Agda} (Working on)
       tesis-advisor: Phd. Andrés Sicard-Ramiréz
- 
+
 # Skills
 skills:
   - Speak Louder
@@ -80,17 +90,6 @@ tech:
     - description: something to say
 ```
 
-## Creating the PDF File
-
-It makes it much easier to update while keeping a consistent structure.
-Compile your CV running the following command:
-
-```Bash
-$ make
-```
-After the last execution of `make` command, you'll be available to
-open the file `cv.pdf`. If something was wrong, check in your `data.yml` for
-encondings, accentuation, or bad structure of listings.
-
 ## License
+
 This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).

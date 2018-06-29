@@ -183,7 +183,7 @@ languages:
 
 # Settings
 fontsize: 11pt
-lang: English
+lang: en-US
 margin: 2.5cm
 boxcolor: c3c3c3
 boxheight: 18pt
