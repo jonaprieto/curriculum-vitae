@@ -3,22 +3,22 @@ name: Jonathan Prieto-Cubides
 date-of-birth: 1991-04-18
 gender: Male
 citizenship: Colombia
-current-profession: Research Assistant
+current-profession: Ph.D. Research Fellow
 
-email: jprieto9@eafit.edu.co
+email: jcu043@uib.no, jprieto9@eafit.edu.co
 website:
   primary: http://www.github.com/jonaprieto
 
 phone:
-  primary: +57 301-4640435
+  primary: +47 46860287
 
 address:
   line1: CR 45 No. 68 Sur 36\hspace{3mm} Sabaneta, Antioquia
-  line2: CR 73 No. 51 14\hspace{8mm}     Bogotá, Cundinamarca
+  line2: Fosswinckels GATE13, 5007, Bergen, Norway
 
 intro:  Ph.D Research Fellow in the Department of Informatics at University of
   Bergen in Norway. Currently studying mathematics for computer science, i.e.,
-  type theory, computational logic, algorithms, category theory.
+  foundations and algorithms.
 
 research:
 
@@ -44,23 +44,6 @@ research:
         - Text Data Mining, Machine Learning, Algorithms, Functional Programming
 
 lecturer:
-  - years: 2011-2014
-    job: Young Lecturer
-    employer: Universidad Sergio Arboleda
-    city: Bogotá, Colombia
-    tasks:
-      - name: Algorithms I
-        years: 2011-2012, 2014
-
-      - name: Algorithms II
-        years: 2011-2012, 2014
-
-      - name: Discrete Mathematics
-        years: 2014
-
-      - name: Seminar of Competitive Programming
-        years: 2014-2015
-
   - years: 2016-II
     job: Engineering
     employer: Instituto Tecnológico Metropolitano
@@ -71,15 +54,34 @@ lecturer:
         - name: Linear Programming and Algebra
           years: \
 
+  - years: 2011-2014
+    job: Young Lecturer
+    employer: Universidad Sergio Arboleda
+    city: Bogotá, Colombia
+    tasks:
+      - name: Algorithms I and II
+        years: 2011-2012, 2014
+      - name: Discrete Mathematics jointly Competitive Programming
+        years: 2014-2015
+
 education:
-  - years: 2016-present
+  - years: 2018-present
+    subject: Ph.D. in Computer Science
+    duration: 4 years
+    emphasis: Type Theory and Functional Programming
+    institute: University of Bergen
+    city: Bergen, Norway
+    tesis-title: --not available yet--
+    tesis-advisor: Marc Bezem
+
+  - years: 2016-2017
     subject: Master in Applied Mathematics
     duration: 2 years
     emphasis: Logic, Type Theory, and Functional Programming.
     institute: EAFIT University
     city: Medellín, Colombia.
-    tesis-title: Proof Recontruction
-    tesis-advisor: PhD. Andrés Sicard-Ramírez
+    tesis-title: Proof Reconstruction for Metis in Agda
+    tesis-advisor: Andrés Sicard-Ramírez
 
   - years: 2007-2013
     subject: Bachelor in Mathematics
