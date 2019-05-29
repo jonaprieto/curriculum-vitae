@@ -5,3 +5,5 @@
 # Output
 cv.fdb_latexmk
 cv.fls
+
+.DS_Store

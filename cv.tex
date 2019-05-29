@@ -106,6 +106,25 @@ $if(intro)$
   $intro$\\[0.5em]
 $endif$
 
+$if(experience)$
+  \colorbox{Profesional Experience}
+  $for(experience)$
+    \listing{$experience.job$}{$experience.years$}{$experience.employer$. $experience.city$}{}
+    $if(experience.tasks)$
+      \begin{itemize}
+        $for(experience.tasks)$
+          $if(experience.tasks.years)$
+            \item $experience.tasks.name$ \hfill {\footnotesize $experience.tasks.years$}
+          $else$
+            \item {\footnotesize $experience.tasks$}
+          $endif$
+        $endfor$
+      \end{itemize}
+    $endif$
+  $endfor$
+$endif$
+
+
 $if(research)$
   \colorbox{Research Experience}
   $for(research)$
@@ -183,6 +202,15 @@ $if(open-source-project)$
     $endfor$
 $endif$
 
+$if(certification)$
+  \colorbox{Licenses and Certifications}
+  $for(certification)$
+  \listing{$certification.title$}{$certification.years$}{$certification.organization$}{}
+  \begin{tabularx}{\linewidth}{Xr}
+    {\footnotesize $certification.credentialId$}
+  \end{tabularx}
+  $endfor$
+$endif$
 
 $if(private-project)$
   \colorbox{Private Projects}
