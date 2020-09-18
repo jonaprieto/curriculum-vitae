@@ -116,17 +116,10 @@ achievements:
   - National high school qualification exam ICFES. 4th place/group
   - McDonald's drawing contest for schools. 1th Place 1997
 
-references:
-  - Phd. Andrés Sicard-Ramírez. asr@eafit.edu.co. Computer Science. EAFIT University
-  - Phd(c). Paola Lizarralde-Bejarano. dlizarra@eafit.edu.co. Mathematics. EAFIT University
-  - Phd. Camilo Argoty.  argoty7@gmail.com. Mathematics. Universidad Sergio Arboleda
-  - Phd. Esteban Hernández. Computer Science. eshernan@gmail.com Universidad Distrital de Bogotá.
-
 paper:
   - Prieto-Cubides J., Argoty Camilo. \emph{Dealing with Missing Data using a Selection Algorithm on Rough Sets}. 2017.
     International Journal of Computational Intelligence Systems.
   - Prieto-Cubides j., Sicard-Ramirez Andres. \emph{Proof-Reconstruction in Type Theory for Propositional Logic}. 2018. Master's thesis.
-
 
 private-project:
   - name: Poirot, the full-text search engine with extra features
@@ -152,7 +145,7 @@ open-source-project:
     description: Athena is a Haskell program that translates proofs given by Metis Prover in TSTP format to Agda code.
       I featured this work in the \href{http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.AIMXXV}{Agda Implementors' Meeting XXV}
       at Chalmers University.
-    language: Haskell, Agda
+    language: Haskell, Agda, Bash
 
   - name: Agda-prop
     url: http://github.com/jonaprieto/agda-prop
@@ -183,7 +176,7 @@ open-source-project:
 
   - name: Flask-PonyWhoosh
     url: http://github.com/jonaprieto/flask-ponywhoosh
-    description: A web search engine for the webframework flask with the usage of PonyORM and Whoosh.
+    description: A web search engine for the web Python framework Flask. This tool uses underneath PonyORM and Whoosh.
     language: Python
 
   - name: Curriculum-Vitae
@@ -197,9 +190,9 @@ languages:
   - Spanish
 
 # Settings
-fontsize: 11pt
+fontsize: 12pt
 lang: en-US
-margin: 3cm
+margin: 3.5cm
 boxcolor: c3c3c3
 boxheight: 18pt
 ...
