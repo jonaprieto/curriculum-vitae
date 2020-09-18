@@ -103,11 +103,26 @@
 % \\[0.3em]
 
 $if(intro)$
-  $intro$\\[0.5em]
+  $intro$\\
+$endif$
+
+$if(education)$
+\colorbox{Education}
+$for(education)$
+  \education{$education.subject$}{$education.years$}{$education.institute$. $education.city$}{$education.duration$}{\emph{Emphasis in $education.emphasis$}}
+  $if(education.tesis-title)$
+  {\footnotesize
+  \begin{itemize}
+    \item[] Thesis Title. $education.tesis-title$
+    \item[] Advisory.     $education.tesis-advisor$
+  \end{itemize}
+  }
+  $endif$
+$endfor$
 $endif$
 
 $if(experience)$
-  \colorbox{Profesional Experience}
+  \colorbox{Profesional experience}
   $for(experience)$
     \listing{$experience.job$}{$experience.years$}{$experience.employer$. $experience.city$}{}
     $if(experience.tasks)$
@@ -126,7 +141,7 @@ $endif$
 
 
 $if(research)$
-  \colorbox{Research Experience}
+  \colorbox{Research experience}
   $for(research)$
     \listing{$research.job$}{$research.years$}{$research.employer$. $research.city$}{}
     $if(research.tasks)$
@@ -144,7 +159,7 @@ $if(research)$
 $endif$
 
 $if(lecturer)$
-  \colorbox{Teaching Experience}
+  \colorbox{Teaching experience}
   $for(lecturer)$
     \listing{$lecturer.job$}{$lecturer.years$}{$lecturer.employer$. $lecturer.city$}{}
     $if(lecturer.tasks)$
@@ -162,21 +177,6 @@ $if(lecturer)$
 $endif$
 % \newpage
 
-  $if(education)$
-    \colorbox{Education}
-    $for(education)$
-      \education{$education.subject$}{$education.years$}{$education.institute$. $education.city$}{($education.duration$)}{\emph{Emphasis in $education.emphasis$}}
-      $if(education.tesis-title)$
-      {\footnotesize
-      \begin{itemize}
-        \item[] Thesis Title. $education.tesis-title$
-        \item[] Advisory.     $education.tesis-advisor$
-      \end{itemize}
-      }
-      $endif$
-    $endfor$
-  $endif$
-
 
 $if(paper)$
   \colorbox{Publications}
@@ -189,7 +189,7 @@ $if(paper)$
 $endif$
 
 $if(open-source-project)$
-  \colorbox{Open-Source Projects}
+  \colorbox{Open-source projects}
     $for(open-source-project)$
   \begin{tabularx}{\textwidth}{Xr}
     {\color{plum!60!black}\textbf{$open-source-project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $open-source-project.language$}\\
@@ -203,7 +203,7 @@ $if(open-source-project)$
 $endif$
 
 $if(certification)$
-  \colorbox{Licenses and Certifications}
+  \colorbox{Licenses and certifications}
   $for(certification)$
   \listing{$certification.title$}{$certification.years$}{$certification.organization$}{}
   \begin{tabularx}{\linewidth}{Xr}
@@ -213,7 +213,7 @@ $if(certification)$
 $endif$
 
 $if(private-project)$
-  \colorbox{Private Projects}
+  \colorbox{Private projects}
     $for(private-project)$
   \begin{tabularx}{\textwidth}{Xr}
     {\color{plum!60!black}\textbf{$private-project.name$}}   &{\color{plum!60!black}\textbf\footnotesize $private-project.language$}\\
@@ -275,7 +275,6 @@ $if(tech)$
 $endif$
 
 $if(references)$
-\newpage
   \colorbox{References}{\footnotesize
   \begin{itemize}
     $for(references)$

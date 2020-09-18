@@ -7,77 +7,80 @@ current-profession: Ph.D. Research Fellow
 
 email: jcu043@uib.no, jprieto9@eafit.edu.co
 website:
-  primary: http://www.github.com/jonaprieto
+  primary: https://jonaprieto.github.io/
 
 phone:
   primary: +47 46860287
 
 address:
-  line1: CR 45 No. 68 Sur 36\hspace{3mm} Sabaneta, Antioquia
-  line2: Fosswinckels GATE13, 5007, Bergen, Norway
+  line1: Fredlundsvingen 3, 5073, Minde.
+  line2:  Bergen, Norway
 
-intro:  Ph.D Research Fellow in the Department of Informatics at University of
-  Bergen in Norway. Currently studying mathematics for computer science, i.e.,
-  foundations and algorithms.
+intro: I'm a PhD student at the University of Bergen in the Informatics Department,
+  working on the application of (homotopy) type theory to formalize mathematics. My supervisors
+  are Marc Bezem and Håkon Robbestad Gylterud, and my research belongs to the programming research group (PUT).
 
 research:
 
   - years: 2018-present
-    job: Research Fellow
+    job: Research fellow
     employer: University of Bergen. ICT Research Group. PUT.
     city: Bergen, Norway
     tasks:
-      - Type Theory, Functional Programming
+      - Research topics about type theory, functional programming, Haskell, Agda
+      - TAing concurrent programming, mathematical logic, models of computation, and software engineering classes
 
   - years: 2016-2017
-    job: Young Research Assistant
+    job: Young research assistant
     employer: EAFIT University. Logic and Computation Research Group
     city: Medellín, Colombia
     tasks:
-      - Logic, Type Theory, Agda, Functional Programming
+      - Collaborate in the developed of Apia, a Haskell tool for combining interactive theorem provers with automatic theorem provers
+      - Research topics about type theory, agda, functional programming
 
-  - years: 2013-2015
-    job: Young Researcher
+  - years: 2014-2015
+    job: Young researcher
     employer: Observatorio de Restitución y Regulación de Derechos de la Propiedad Agraria
     city: Bogotá, Colombia
     tasks:
-        - Text Data Mining, Machine Learning, Algorithms, Functional Programming
+        - Reserach topics on text data mining, machine learning, algorithms, functional programming
 
 lecturer:
   - years: 2016-II
-    job: Engineering
+    job: Lecturing for the engineering undergraduate program.
     employer: Instituto Tecnológico Metropolitano
     city: Medellín, Colombia
     tasks:
-        - name: Linear Algebra
+        - name: Linear algebra
           years: \
-        - name: Linear Programming and Algebra
+        - name: Linear programming and algebra
           years: \
 
   - years: 2011-2014
-    job: Young Lecturer
+    job: Young lecturer
     employer: Universidad Sergio Arboleda
     city: Bogotá, Colombia
     tasks:
       - name: Algorithms I and II
         years: 2011-2012, 2014
-      - name: Discrete Mathematics jointly Competitive Programming
+      - name: Discrete mathematics jointly with competitive programming training
         years: 2014-2015
 
 education:
   - years: 2018-present
-    subject: Ph.D. in Computer Science
+    subject: Ph.D. in computer science
     duration: 4 years
-    emphasis: Type Theory and Functional Programming
+    emphasis: Type theory and functional programming
     institute: University of Bergen
     city: Bergen, Norway
-    tesis-title: --not available yet--
-    tesis-advisor: Marc Bezem
+    tesis-title: Univalent graph theory
+    tesis-advisor: Marc Bezem and Håkon Gylterud
+
 
   - years: 2016-2017
-    subject: Master in Applied Mathematics
+    subject: Master in applied mathematics
     duration: 2 years
-    emphasis: Logic, Type Theory, and Functional Programming.
+    emphasis: Logic, type theory, and functional programming.
     institute: EAFIT University
     city: Medellín, Colombia.
     tesis-title: Proof Reconstruction for Metis in Agda
@@ -87,40 +90,47 @@ education:
     subject: Bachelor in Mathematics
     duration: 5 years
     emphasis: Computer Science
-    institute: Sergio Arboleda University
+    institute: Universidad Sergio Arboleda
     city: Bogotá, Colombia.
     tesis-title: An Introduction to Elliptic Curves
     tesis-advisor: PhD. Hermes Jackson
 
+  - years: 2019-2020
+    subject: MOOC courses in computer science
+    emphasis: Parallel and Concurrent programming. Algorithms courses.
+    institute: Coursera.org
+
 achievements:
+  - First in class. 2017. Master in Applied Mathematics at EAFIT University.
   - Scholarship. Agda Implementors’ Meeting XXV at Chalmers University. Gotenburg, Sweden.
   - Scholarship to study the master program in applied mathematics at EAFIT University
-  - Financial support to study mathematics at Sergio Arboleda University
-  - Member of the the program for talent young of high school. Sergio Arboleda University
+  - Financial support to study mathematics at Universidad Sergio Arboleda
+  - Member of a program with other talent young high school students at Universidad Sergio Arboleda
   - ACM-ICPC 2013 Regional Programing Contest. 9th Place, WTF Team
   - ACM-ICPC 2013 National Programing Contest. 11th Place. WTF Team
   - Honor mention. Colombian Math Contest 2010
   - Scholarship. Symposium ANTS X. San Diego, California. EEUU
   - Early promotion at high school. 5th grade to 6th grade
   - Early promotion at high school. 7th grade to 8th grade
-  - Honors Academic Excellence, 10 and 11 degree in the school
+  - Honors academic excellence, 10 and 11 degree in the school
   - National high school qualification exam ICFES. 4th place/group
   - McDonald's drawing contest for schools. 1th Place 1997
 
 references:
   - Phd. Andrés Sicard-Ramírez. asr@eafit.edu.co. Computer Science. EAFIT University
   - Phd(c). Paola Lizarralde-Bejarano. dlizarra@eafit.edu.co. Mathematics. EAFIT University
-  - Phd. Camilo Argoty.  argoty7@gmail.com. Mathematics. Sergio Arboleda University
+  - Phd. Camilo Argoty.  argoty7@gmail.com. Mathematics. Universidad Sergio Arboleda
   - Phd. Esteban Hernández. Computer Science. eshernan@gmail.com Universidad Distrital de Bogotá.
 
 paper:
   - Prieto-Cubides J., Argoty Camilo. \emph{Dealing with Missing Data using a Selection Algorithm on Rough Sets}. 2017.
-    International Journal of Computational Intelligence Systems. (Submitted)
+    International Journal of Computational Intelligence Systems.
+  - Prieto-Cubides j., Sicard-Ramirez Andres. \emph{Proof-Reconstruction in Type Theory for Propositional Logic}. 2018. Master's thesis.
 
 
 private-project:
-  - name: Poirot
-    sponsor: Sergio Arboleda University, IEPRI, COLCIENCIAS
+  - name: Poirot, the full-text search engine with extra features
+    sponsor: Universidad Sergio Arboleda, IEPRI, COLCIENCIAS
     year: 2014-2016
     description: Poirot is a text search, a package, and analysis platform
       programmed in Mathematica®, designed for retrieval, analysis and
@@ -132,20 +142,25 @@ private-project:
 
 open-source-project:
 
+  - name: agda-pkg
+    url: http://github.com/agda/agda-pkg
+    description: Agda-pkg is the tool to manage libraries for the programming language Agda. This tool offers extra features like installing libraries from different kind of sources. It follows a similar approach as pip for the programming language Python.
+    language: Python
+
   - name: Athena
     url: http://github.com/jonaprieto/athena
     description: Athena is a Haskell program that translates proofs given by Metis Prover in TSTP format to Agda code.
-      This work was present in the \href{http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.AIMXXV}{Agda Implementors' Meeting XXV}
+      I featured this work in the \href{http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.AIMXXV}{Agda Implementors' Meeting XXV}
       at Chalmers University.
     language: Haskell, Agda
 
-  - name: Agda-Prop
+  - name: Agda-prop
     url: http://github.com/jonaprieto/agda-prop
     description: Agda library to work with Classical Propositional Logic using
       a deep embedding. Natural deductions Proofs for around seventy theorems.
     language: Agda
 
-  - name: Agda-Metis
+  - name: Agda-metis
     url: http://github.com/jonaprieto/agda-metis
     description: This library aims to provide the necessary functions and
       theorems for Athena to reconstruct proofs found by the automatic
@@ -160,10 +175,6 @@ open-source-project:
       provers and we take avantage of all.
     language: Haskell
 
-  - name: Curriculum-Vitae
-    url: http://github.com/jonaprieto/curriculum-vitae
-    description: This document was generated using this project. It makes easier maintain your Resume using LaTeX and Pandoc.
-    language: Latex
 
   - name: PonyWhoosh
     url: http://github.com/jonaprieto/ponywhoosh
@@ -172,17 +183,23 @@ open-source-project:
 
   - name: Flask-PonyWhoosh
     url: http://github.com/jonaprieto/flask-ponywhoosh
-    description: A web search engine for flask using PonyORM and Whoosh.
+    description: A web search engine for the webframework flask with the usage of PonyORM and Whoosh.
     language: Python
 
+  - name: Curriculum-Vitae
+    url: http://github.com/jonaprieto/curriculum-vitae
+    description: This document was generated using this project. It makes easier maintain your Resume using LaTeX and Pandoc.
+    language: Latex, Bash
+
+
 languages:
-  - English - B2
-  - Spanish - Native speaker
+  - English
+  - Spanish
 
 # Settings
 fontsize: 11pt
 lang: en-US
-margin: 2.5cm
+margin: 3cm
 boxcolor: c3c3c3
 boxheight: 18pt
 ...
